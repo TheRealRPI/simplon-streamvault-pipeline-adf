@@ -32,7 +32,7 @@ StreamVault est un pipeline de données de bout en bout pour une plateforme fict
 - Base MongoDB locale `streamvault` (collections `clients`, `media`, `commandes`)
 - Simulateur de commandes temps réel vers Azure Event Hub (`commandProducer.py`)
 - Consommation du flux par Spark Structured Streaming (ADLS + MongoDB)
-- Ontologie RDF/OWL du catalogue générée avec rdflib (`output/`)
+- Ontologie RDF/OWL du catalogue (`rendus/ontology/`)
 - Visualisations des ventes et du catalogue (`rendus/dataviz/`)
 
 ## 🧱 Architecture
@@ -59,7 +59,7 @@ flowchart TD
     end
 
     subgraph Exploitation["Exploitation des donnees"]
-        RDF["Ontologie RDF/OWL (rdflib)"]
+        RDF["Ontologie RDF/OWL"]
         VIZ["Dataviz (ventes, catalogue)"]
     end
 
@@ -97,8 +97,7 @@ flowchart TD
 ```text
 .
 ├── notebooks/          # Notebooks Databricks (ETL, jointures, streaming)
-├── output/             # Ontologie RDF générée (streamvault.ttl, streamvault.owl)
-├── rendus/             # Livrables : captures ADF, schémas MongoDB, dataviz
+├── rendus/             # Livrables : captures ADF, schémas MongoDB, ontologie RDF, dataviz
 ├── commandProducer.py  # Simulateur de commandes vers Azure Event Hub
 └── requirements.txt    # Dépendances Python
 ```
