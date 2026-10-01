@@ -1,0 +1,7 @@
+.ruff_cache
+
+__pycache__
+
+data_sources
+
+temp

@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sv="http://streamvault.example/ontology#"
+>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/dupont-jules">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Dupont</sv:aPourNom>
+    <sv:aPourPrenom>Jules</sv:aPourPrenom>
+    <sv:aPourCodePostal>67000</sv:aPourCodePostal>
+    <sv:aPourCommune>Strasbourg</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/olga-legrand">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Olga Legrand</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/pascal-bongard">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Pascal Bongard</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/livre/kallocain">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Livre"/>
+    <sv:aPourTitre>Kallocain</sv:aPourTitre>
+    <sv:aPourAuteur rdf:resource="http://streamvault.example/data/personne/karin-boye"/>
+    <sv:aPourNbPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">193</sv:aPourNbPages>
+    <sv:aPourAnnee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</sv:aPourAnnee>
+    <sv:aPourNote rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.8</sv:aPourNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/roux-gabriel">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Roux</sv:aPourNom>
+    <sv:aPourPrenom>Gabriel</sv:aPourPrenom>
+    <sv:aPourCodePostal>31000</sv:aPourCodePostal>
+    <sv:aPourCommune>Toulouse</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/film/warriors-of-virtue">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Film"/>
+    <sv:aPourTitre>Warriors of Virtue</sv:aPourTitre>
+    <sv:aPourAnnee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</sv:aPourAnnee>
+    <sv:aPourGenre>Action</sv:aPourGenre>
+    <sv:aPourNoteImdb rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</sv:aPourNoteImdb>
+    <sv:aPourNote rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</sv:aPourNote>
+    <sv:aPourRealisateur rdf:resource="http://streamvault.example/data/personne/ronny-yu"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/angus-macfadyen"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/mario-yedidia"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/marley-shelton"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/chao-li-chi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/film/battlefield-earth">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Film"/>
+    <sv:aPourTitre>Battlefield Earth</sv:aPourTitre>
+    <sv:aPourAnnee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</sv:aPourAnnee>
+    <sv:aPourGenre>Action</sv:aPourGenre>
+    <sv:aPourNoteImdb rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.4</sv:aPourNoteImdb>
+    <sv:aPourNote rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.4</sv:aPourNote>
+    <sv:aPourRealisateur rdf:resource="http://streamvault.example/data/personne/roger-christian"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/john-travolta"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/barry-pepper"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/forest-whitaker"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/kim-coates"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/angus-macfadyen">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Angus Macfadyen</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/morel-alice">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Morel</sv:aPourNom>
+    <sv:aPourPrenom>Alice</sv:aPourPrenom>
+    <sv:aPourCodePostal>59000</sv:aPourCodePostal>
+    <sv:aPourCommune>Lille</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#Film">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="fr">Film</rdfs:label>
+    <rdfs:comment xml:lang="fr">Film du catalogue : titre, annee, genre, realisateurs, casting, note IMDB. Correspond a schema:Movie (schema.org).</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://streamvault.example/ontology#Media"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/commande/1ab9da0e-0c98-4b36-a199-ac8a18bee0e6">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Commande"/>
+    <sv:aPourClient rdf:resource="http://streamvault.example/data/client/durand-nathan"/>
+    <sv:aPourMedia rdf:resource="http://streamvault.example/data/film/l-heritage"/>
+    <sv:aPourPrix rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.33</sv:aPourPrix>
+    <sv:aPourDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-09-30T09:42:25.097688+02:00</sv:aPourDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/tim-curry">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Tim Curry</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/nicole-fugere">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Nicole Fugere</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/mercier-clara">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Mercier</sv:aPourNom>
+    <sv:aPourPrenom>Clara</sv:aPourPrenom>
+    <sv:aPourCodePostal>67000</sv:aPourCodePostal>
+    <sv:aPourCommune>Strasbourg</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/film/l-heritage">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Film"/>
+    <sv:aPourTitre>L'hèritage</sv:aPourTitre>
+    <sv:aPourAnnee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</sv:aPourAnnee>
+    <sv:aPourGenre>Drama</sv:aPourGenre>
+    <sv:aPourNoteImdb rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.9</sv:aPourNoteImdb>
+    <sv:aPourNote rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.9</sv:aPourNote>
+    <sv:aPourRealisateur rdf:resource="http://streamvault.example/data/personne/gela-babluani"/>
+    <sv:aPourRealisateur rdf:resource="http://streamvault.example/data/personne/temur-babluani"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/sylvie-testud"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/stanislas-merhar"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/olga-legrand"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/pascal-bongard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#aPourRealisateur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="fr">a pour realisateur</rdfs:label>
+    <rdfs:comment xml:lang="fr">Personne ayant realise le film.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://streamvault.example/ontology#Film"/>
+    <rdfs:range rdf:resource="http://streamvault.example/ontology#Personne"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/cary-elwes">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Cary Elwes</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#aPourDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="fr">a pour date</rdfs:label>
+    <rdfs:comment xml:lang="fr">Date et heure de la commande (ISO 8601).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://streamvault.example/ontology#Commande"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/dubois-emma">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Dubois</sv:aPourNom>
+    <sv:aPourPrenom>Emma</sv:aPourPrenom>
+    <sv:aPourCodePostal>69001</sv:aPourCodePostal>
+    <sv:aPourCommune>Lyon</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/livre/still-small-voices-the-untold-human-stories-behind-the-violence-on-the-west-bank-and-gaza">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Livre"/>
+    <sv:aPourTitre>Still Small Voices: The Untold Human Stories Behind the Violence on the West Bank and Gaza</sv:aPourTitre>
+    <sv:aPourAuteur rdf:resource="http://streamvault.example/data/personne/john-wallach"/>
+    <sv:aPourNbPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">210</sv:aPourNbPages>
+    <sv:aPourAnnee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1989</sv:aPourAnnee>
+    <sv:aPourNote rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.67</sv:aPourNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/simon-camille">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Simon</sv:aPourNom>
+    <sv:aPourPrenom>Camille</sv:aPourPrenom>
+    <sv:aPourCodePostal>33000</sv:aPourCodePostal>
+    <sv:aPourCommune>Bordeaux</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/karin-boye">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Karin Boye</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/robert-lea">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Robert</sv:aPourNom>
+    <sv:aPourPrenom>Léa</sv:aPourPrenom>
+    <sv:aPourCodePostal>75001</sv:aPourCodePostal>
+    <sv:aPourCommune>Paris</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/commande/3d1c8ec2-2b42-4a5e-bcb5-cfcb820f9129">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Commande"/>
+    <sv:aPourClient rdf:resource="http://streamvault.example/data/client/bertrand-zoe"/>
+    <sv:aPourMedia rdf:resource="http://streamvault.example/data/film/battlefield-earth"/>
+    <sv:aPourPrix rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.27</sv:aPourPrix>
+    <sv:aPourDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-09-30T09:42:43.272316+02:00</sv:aPourDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/livre/a-guide-for-using-where-the-wild-things-are-in-the-classroom">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Livre"/>
+    <sv:aPourTitre>A Guide for Using Where the Wild Things Are in the Classroom</sv:aPourTitre>
+    <sv:aPourAuteur rdf:resource="http://streamvault.example/data/personne/kilpatrick"/>
+    <sv:aPourNbPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</sv:aPourNbPages>
+    <sv:aPourAnnee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</sv:aPourAnnee>
+    <sv:aPourNote rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.83</sv:aPourNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/commande/b007270e-7e84-4bf9-a537-d9027a1b1959">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Commande"/>
+    <sv:aPourClient rdf:resource="http://streamvault.example/data/client/lefebvre-jade"/>
+    <sv:aPourMedia rdf:resource="http://streamvault.example/data/livre/a-guide-for-using-where-the-wild-things-are-in-the-classroom"/>
+    <sv:aPourPrix rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</sv:aPourPrix>
+    <sv:aPourDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-09-30T09:38:37.637926+02:00</sv:aPourDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#aPourAnnee">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="fr">a pour annee</rdfs:label>
+    <rdfs:comment xml:lang="fr">Annee de sortie (film) ou de publication (livre).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://streamvault.example/ontology#Media"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/commande/bd8dd96a-61f2-4651-bdc3-842c75557da3">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Commande"/>
+    <sv:aPourClient rdf:resource="http://streamvault.example/data/client/richard-louis"/>
+    <sv:aPourMedia rdf:resource="http://streamvault.example/data/livre/famous-men-of-ancient-rome-lives-of-julius-caesar-nero-marcus-aurelius-and-others"/>
+    <sv:aPourPrix rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.69</sv:aPourPrix>
+    <sv:aPourDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-09-30T09:40:44.848966+02:00</sv:aPourDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/c-jay-cox">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>C. Jay Cox</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/david-arthur">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>David</sv:aPourNom>
+    <sv:aPourPrenom>Arthur</sv:aPourPrenom>
+    <sv:aPourCodePostal>44000</sv:aPourCodePostal>
+    <sv:aPourCommune>Nantes</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/livre/nam-the-vietnam-war-in-the-words-of-the-men-and-women-who-fought-there">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Livre"/>
+    <sv:aPourTitre>Nam: The Vietnam War in the Words of the Men and Women Who Fought There</sv:aPourTitre>
+    <sv:aPourAuteur rdf:resource="http://streamvault.example/data/personne/mark-baker"/>
+    <sv:aPourNbPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">324</sv:aPourNbPages>
+    <sv:aPourAnnee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</sv:aPourAnnee>
+    <sv:aPourNote rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.14</sv:aPourNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/livre/romantische-themen-und-mythen-im-fruhwerk-michel-tourniers">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Livre"/>
+    <sv:aPourTitre>Romantische Themen Und Mythen Im Frühwerk Michel Tourniers</sv:aPourTitre>
+    <sv:aPourAuteur rdf:resource="http://streamvault.example/data/personne/barbara-scheiner"/>
+    <sv:aPourNbPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">218</sv:aPourNbPages>
+    <sv:aPourAnnee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</sv:aPourAnnee>
+    <sv:aPourNote rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</sv:aPourNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/film/addams-family-reunion">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Film"/>
+    <sv:aPourTitre>Addams Family Reunion</sv:aPourTitre>
+    <sv:aPourAnnee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</sv:aPourAnnee>
+    <sv:aPourGenre>Comedy</sv:aPourGenre>
+    <sv:aPourNoteImdb rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.8</sv:aPourNoteImdb>
+    <sv:aPourNote rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.8</sv:aPourNote>
+    <sv:aPourRealisateur rdf:resource="http://streamvault.example/data/personne/dave-payne"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/daryl-hannah"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/tim-curry"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/nicole-fugere"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/jerry-messing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/fournier-adam">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Fournier</sv:aPourNom>
+    <sv:aPourPrenom>Adam</sv:aPourPrenom>
+    <sv:aPourCodePostal>31000</sv:aPourCodePostal>
+    <sv:aPourCommune>Toulouse</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/lefevre-noah">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Lefevre</sv:aPourNom>
+    <sv:aPourPrenom>Noah</sv:aPourPrenom>
+    <sv:aPourCodePostal>59000</sv:aPourCodePostal>
+    <sv:aPourCommune>Lille</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/steve-skrovan">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Steve Skrovan</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/leroy-manon">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Leroy</sv:aPourNom>
+    <sv:aPourPrenom>Manon</sv:aPourPrenom>
+    <sv:aPourCodePostal>13001</sv:aPourCodePostal>
+    <sv:aPourCommune>Marseille</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/livre/america-s-first-families-an-inside-view-of-200-years-of-private-life-in-the-white-house">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Livre"/>
+    <sv:aPourTitre>America's First Families: An Inside View of 200 Years of Private Life in the White House</sv:aPourTitre>
+    <sv:aPourAuteur rdf:resource="http://streamvault.example/data/personne/carl-sferrazza-anthony"/>
+    <sv:aPourNbPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">416</sv:aPourNbPages>
+    <sv:aPourAnnee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</sv:aPourAnnee>
+    <sv:aPourNote rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.84</sv:aPourNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/john-travolta">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>John Travolta</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/film/the-pentagon-wars">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Film"/>
+    <sv:aPourTitre>The Pentagon Wars</sv:aPourTitre>
+    <sv:aPourAnnee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</sv:aPourAnnee>
+    <sv:aPourGenre>Comedy</sv:aPourGenre>
+    <sv:aPourNoteImdb rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.3</sv:aPourNoteImdb>
+    <sv:aPourNote rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.3</sv:aPourNote>
+    <sv:aPourRealisateur rdf:resource="http://streamvault.example/data/personne/richard-benjamin"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/kelsey-grammer"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/cary-elwes"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/viola-davis"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/john-c-mcginley"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#Client">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="fr">Client</rdfs:label>
+    <rdfs:comment xml:lang="fr">Client inscrit a StreamVault (identifie par ses nom, prenom et code postal).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#aPourTitre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="fr">a pour titre</rdfs:label>
+    <rdfs:comment xml:lang="fr">Titre du media.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://streamvault.example/ontology#Media"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/film/the-doctor">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Film"/>
+    <sv:aPourTitre>The Doctor</sv:aPourTitre>
+    <sv:aPourAnnee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</sv:aPourAnnee>
+    <sv:aPourGenre>Drama</sv:aPourGenre>
+    <sv:aPourNoteImdb rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.9</sv:aPourNoteImdb>
+    <sv:aPourNote rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.9</sv:aPourNote>
+    <sv:aPourRealisateur rdf:resource="http://streamvault.example/data/personne/randa-haines"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/william-hurt"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/christine-lahti"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/elizabeth-perkins"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/mandy-patinkin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/film/the-battery">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Film"/>
+    <sv:aPourTitre>The Battery</sv:aPourTitre>
+    <sv:aPourAnnee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</sv:aPourAnnee>
+    <sv:aPourGenre>Adventure</sv:aPourGenre>
+    <sv:aPourNoteImdb rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.4</sv:aPourNoteImdb>
+    <sv:aPourNote rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.4</sv:aPourNote>
+    <sv:aPourRealisateur rdf:resource="http://streamvault.example/data/personne/jeremy-gardner"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/jeremy-gardner"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/adam-cronheim"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/niels-bolle"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/alana-o-brien"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/martin-sophie">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Martin</sv:aPourNom>
+    <sv:aPourPrenom>Sophie</sv:aPourPrenom>
+    <sv:aPourCodePostal>69001</sv:aPourCodePostal>
+    <sv:aPourCommune>Lyon</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#aPourClient">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="fr">a pour client</rdfs:label>
+    <rdfs:comment xml:lang="fr">Client ayant passe la commande.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://streamvault.example/ontology#Commande"/>
+    <rdfs:range rdf:resource="http://streamvault.example/ontology#Client"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/commande/9a519a48-aa2c-4a83-b8b6-4380fa4842a1">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Commande"/>
+    <sv:aPourClient rdf:resource="http://streamvault.example/data/client/david-arthur"/>
+    <sv:aPourMedia rdf:resource="http://streamvault.example/data/livre/romantische-themen-und-mythen-im-fruhwerk-michel-tourniers"/>
+    <sv:aPourPrix rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.11</sv:aPourPrix>
+    <sv:aPourDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-09-30T09:40:35.764993+02:00</sv:aPourDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/commande/df41f2a1-6b17-41ce-98b1-0b07776588d9">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Commande"/>
+    <sv:aPourClient rdf:resource="http://streamvault.example/data/client/durand-nathan"/>
+    <sv:aPourMedia rdf:resource="http://streamvault.example/data/livre/nam-the-vietnam-war-in-the-words-of-the-men-and-women-who-fought-there"/>
+    <sv:aPourPrix rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.19</sv:aPourPrix>
+    <sv:aPourDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-09-30T09:40:17.564035+02:00</sv:aPourDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#aPourActeur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="fr">a pour acteur</rdfs:label>
+    <rdfs:comment xml:lang="fr">Personne jouant dans le film.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://streamvault.example/ontology#Film"/>
+    <rdfs:range rdf:resource="http://streamvault.example/ontology#Personne"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#aPourPrix">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="fr">a pour prix</rdfs:label>
+    <rdfs:comment xml:lang="fr">Prix paye lors de la commande, en euros.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://streamvault.example/ontology#Commande"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/livre/the-chasm-companion-a-field-guide-to-crossing-the-chasm-and-inside-the-tornado">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Livre"/>
+    <sv:aPourTitre>The Chasm Companion: A Field Guide to Crossing the Chasm and Inside the Tornado</sv:aPourTitre>
+    <sv:aPourAuteur rdf:resource="http://streamvault.example/data/personne/paul-wiefels"/>
+    <sv:aPourNbPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">348</sv:aPourNbPages>
+    <sv:aPourAnnee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</sv:aPourAnnee>
+    <sv:aPourNote rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.91</sv:aPourNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/vincent-rose">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Vincent</sv:aPourNom>
+    <sv:aPourPrenom>Rose</sv:aPourPrenom>
+    <sv:aPourCodePostal>31000</sv:aPourCodePostal>
+    <sv:aPourCommune>Toulouse</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#aPourNote">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="fr">a pour note</rdfs:label>
+    <rdfs:comment xml:lang="fr">Note moyenne du media : note IMDB pour un film, note des lecteurs pour un livre.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://streamvault.example/ontology#Media"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#Livre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="fr">Livre</rdfs:label>
+    <rdfs:comment xml:lang="fr">Livre du catalogue : titre, auteur, annee, nombre de pages, note. Correspond a schema:Book (schema.org).</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://streamvault.example/ontology#Media"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#aPourNoteImdb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="fr">a pour note IMDB</rdfs:label>
+    <rdfs:comment xml:lang="fr">Note IMDB du film, sur 10.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://streamvault.example/ontology#Film"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/justin-roiland">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Justin Roiland</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/kim-coates">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Kim Coates</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/film/fred-vinnie">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Film"/>
+    <sv:aPourTitre>Fred &amp; Vinnie</sv:aPourTitre>
+    <sv:aPourAnnee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</sv:aPourAnnee>
+    <sv:aPourGenre>Comedy</sv:aPourGenre>
+    <sv:aPourNoteImdb rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.7</sv:aPourNoteImdb>
+    <sv:aPourNote rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.7</sv:aPourNote>
+    <sv:aPourRealisateur rdf:resource="http://streamvault.example/data/personne/steve-skrovan"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/justin-roiland"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/john-asher"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/fred-willard"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/richard-steven-horvitz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/ronny-yu">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Ronny Yu</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/film/latter-days">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Film"/>
+    <sv:aPourTitre>Latter Days</sv:aPourTitre>
+    <sv:aPourAnnee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</sv:aPourAnnee>
+    <sv:aPourGenre>Comedy</sv:aPourGenre>
+    <sv:aPourNoteImdb rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.3</sv:aPourNoteImdb>
+    <sv:aPourNote rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.3</sv:aPourNote>
+    <sv:aPourRealisateur rdf:resource="http://streamvault.example/data/personne/c-jay-cox"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/steve-sandvoss"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/wes-ramsey"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/rebekah-johnson"/>
+    <sv:aPourActeur rdf:resource="http://streamvault.example/data/personne/amber-benson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/paul-wiefels">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Paul Wiefels</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#aPourPrenom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="fr">a pour prenom</rdfs:label>
+    <rdfs:comment xml:lang="fr">Prenom du client.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://streamvault.example/ontology#Client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/mandy-patinkin">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Mandy Patinkin</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/jeremy-gardner">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Jeremy Gardner</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#Commande">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="fr">Commande</rdfs:label>
+    <rdfs:comment xml:lang="fr">Achat d'un media par un client, a un prix donne et a une date donnee. Correspond a schema:Order (schema.org).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#aPourNomComplet">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="fr">a pour nom complet</rdfs:label>
+    <rdfs:comment xml:lang="fr">Nom usuel de la personne (acteur, realisateur, auteur).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/commande/f0a0999c-cf9f-4ce0-ab11-eabfba6f7023">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Commande"/>
+    <sv:aPourClient rdf:resource="http://streamvault.example/data/client/durand-nathan"/>
+    <sv:aPourMedia rdf:resource="http://streamvault.example/data/livre/speaking-your-mind-in-101-difficult-situations"/>
+    <sv:aPourPrix rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.39</sv:aPourPrix>
+    <sv:aPourDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-09-30T09:42:00.608403+02:00</sv:aPourDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/bertrand-zoe">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Bertrand</sv:aPourNom>
+    <sv:aPourPrenom>Zoé</sv:aPourPrenom>
+    <sv:aPourCodePostal>44000</sv:aPourCodePostal>
+    <sv:aPourCommune>Nantes</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/niels-bolle">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Niels Bolle</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/livre/peaceable-kingdom">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Livre"/>
+    <sv:aPourTitre>Peaceable Kingdom</sv:aPourTitre>
+    <sv:aPourAuteur rdf:resource="http://streamvault.example/data/personne/stan-richards"/>
+    <sv:aPourNbPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">272</sv:aPourNbPages>
+    <sv:aPourAnnee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</sv:aPourAnnee>
+    <sv:aPourNote rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.94</sv:aPourNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/richard-louis">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Richard</sv:aPourNom>
+    <sv:aPourPrenom>Louis</sv:aPourPrenom>
+    <sv:aPourCodePostal>75001</sv:aPourCodePostal>
+    <sv:aPourCommune>Paris</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#aPourGenre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="fr">a pour genre</rdfs:label>
+    <rdfs:comment xml:lang="fr">Genre cinematographique du film ('Non renseigne' est exclu).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://streamvault.example/ontology#Film"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#aPourMedia">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="fr">a pour media</rdfs:label>
+    <rdfs:comment xml:lang="fr">Media achete via la commande.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://streamvault.example/ontology#Commande"/>
+    <rdfs:range rdf:resource="http://streamvault.example/ontology#Media"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/francois-lea">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Francois</sv:aPourNom>
+    <sv:aPourPrenom>Lea</sv:aPourPrenom>
+    <sv:aPourCodePostal>34000</sv:aPourCodePostal>
+    <sv:aPourCommune>Montpellier</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/petit-chloe">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Petit</sv:aPourNom>
+    <sv:aPourPrenom>Chloé</sv:aPourPrenom>
+    <sv:aPourCodePostal>75001</sv:aPourCodePostal>
+    <sv:aPourCommune>Paris</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/laurent-theo">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Laurent</sv:aPourNom>
+    <sv:aPourPrenom>Théo</sv:aPourPrenom>
+    <sv:aPourCodePostal>33000</sv:aPourCodePostal>
+    <sv:aPourCommune>Bordeaux</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/viola-davis">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Viola Davis</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/commande/55176827-37ad-4fc8-b1a3-62a87718c4e3">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Commande"/>
+    <sv:aPourClient rdf:resource="http://streamvault.example/data/client/michel-raphael"/>
+    <sv:aPourMedia rdf:resource="http://streamvault.example/data/film/the-battery"/>
+    <sv:aPourPrix rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.67</sv:aPourPrix>
+    <sv:aPourDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-09-30T09:40:53.943729+02:00</sv:aPourDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#aPourCodePostal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="fr">a pour code postal</rdfs:label>
+    <rdfs:comment xml:lang="fr">Code postal de residence du client.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://streamvault.example/ontology#Client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/daryl-hannah">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Daryl Hannah</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/livre/a-summons-to-memphis">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Livre"/>
+    <sv:aPourTitre>A Summons to Memphis</sv:aPourTitre>
+    <sv:aPourAuteur rdf:resource="http://streamvault.example/data/personne/peter-taylor"/>
+    <sv:aPourNbPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">209</sv:aPourNbPages>
+    <sv:aPourAnnee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1986</sv:aPourAnnee>
+    <sv:aPourNote rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.67</sv:aPourNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/john-c-mcginley">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>John C. McGinley</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/temur-babluani">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Temur Babluani</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#aPourCommune">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="fr">a pour commune</rdfs:label>
+    <rdfs:comment xml:lang="fr">Commune de residence du client.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://streamvault.example/ontology#Client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/barry-pepper">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Barry Pepper</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/commande/2d404c97-f7fb-48be-b076-2b9015480dc4">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Commande"/>
+    <sv:aPourClient rdf:resource="http://streamvault.example/data/client/bertrand-zoe"/>
+    <sv:aPourMedia rdf:resource="http://streamvault.example/data/film/fred-vinnie"/>
+    <sv:aPourPrix rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.32</sv:aPourPrix>
+    <sv:aPourDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-09-30T09:38:28.545547+02:00</sv:aPourDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#aPourAuteur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="fr">a pour auteur</rdfs:label>
+    <rdfs:comment xml:lang="fr">Personne ayant ecrit le livre.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://streamvault.example/ontology#Livre"/>
+    <rdfs:range rdf:resource="http://streamvault.example/ontology#Personne"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#Media">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="fr">Media</rdfs:label>
+    <rdfs:comment xml:lang="fr">Ouvre du catalogue StreamVault, film ou livre.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#Personne">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="fr">Personne</rdfs:label>
+    <rdfs:comment xml:lang="fr">Personnalite liee a un media : acteur, realisateur, auteur. Correspond a schema:Person (schema.org).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/livre/speaking-your-mind-in-101-difficult-situations">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Livre"/>
+    <sv:aPourTitre>Speaking Your Mind in 101 Difficult Situations</sv:aPourTitre>
+    <sv:aPourAuteur rdf:resource="http://streamvault.example/data/personne/don-gabor"/>
+    <sv:aPourNbPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</sv:aPourNbPages>
+    <sv:aPourAnnee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</sv:aPourAnnee>
+    <sv:aPourNote rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.44</sv:aPourNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/lambert-anna">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Lambert</sv:aPourNom>
+    <sv:aPourPrenom>Anna</sv:aPourPrenom>
+    <sv:aPourCodePostal>67000</sv:aPourCodePostal>
+    <sv:aPourCommune>Strasbourg</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/john-henry-haaren">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>John Henry Haaren</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/andre-lina">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Andre</sv:aPourNom>
+    <sv:aPourPrenom>Lina</sv:aPourPrenom>
+    <sv:aPourCodePostal>59000</sv:aPourCodePostal>
+    <sv:aPourCommune>Lille</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/roger-christian">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Roger Christian</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/commande/b96a7939-5434-413d-9f9f-46012c1aa3e7">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Commande"/>
+    <sv:aPourClient rdf:resource="http://streamvault.example/data/client/andre-lina"/>
+    <sv:aPourMedia rdf:resource="http://streamvault.example/data/livre/still-small-voices-the-untold-human-stories-behind-the-violence-on-the-west-bank-and-gaza"/>
+    <sv:aPourPrix rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.8</sv:aPourPrix>
+    <sv:aPourDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-09-30T09:39:17.023520+02:00</sv:aPourDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#aPourNbPages">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="fr">a pour nombre de pages</rdfs:label>
+    <rdfs:comment xml:lang="fr">Nombre de pages du livre.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://streamvault.example/ontology#Livre"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/william-hurt">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>William Hurt</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/marley-shelton">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Marley Shelton</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/stanislas-merhar">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Stanislas Merhar</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/fred-willard">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Fred Willard</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/wes-ramsey">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Wes Ramsey</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/michel-raphael">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Michel</sv:aPourNom>
+    <sv:aPourPrenom>Raphaël</sv:aPourPrenom>
+    <sv:aPourCodePostal>44000</sv:aPourCodePostal>
+    <sv:aPourCommune>Nantes</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/martinez-sacha">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Martinez</sv:aPourNom>
+    <sv:aPourPrenom>Sacha</sv:aPourPrenom>
+    <sv:aPourCodePostal>34000</sv:aPourCodePostal>
+    <sv:aPourCommune>Montpellier</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/bernard-lucas">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Bernard</sv:aPourNom>
+    <sv:aPourPrenom>Lucas</sv:aPourPrenom>
+    <sv:aPourCodePostal>69001</sv:aPourCodePostal>
+    <sv:aPourCommune>Lyon</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/mario-yedidia">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Mario Yedidia</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/livre/famous-men-of-ancient-rome-lives-of-julius-caesar-nero-marcus-aurelius-and-others">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Livre"/>
+    <sv:aPourTitre>Famous Men of Ancient Rome: Lives of Julius Caesar, Nero, Marcus Aurelius and Others</sv:aPourTitre>
+    <sv:aPourAuteur rdf:resource="http://streamvault.example/data/personne/john-henry-haaren"/>
+    <sv:aPourNbPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160</sv:aPourNbPages>
+    <sv:aPourAnnee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</sv:aPourAnnee>
+    <sv:aPourNote rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.91</sv:aPourNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/durand-nathan">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Durand</sv:aPourNom>
+    <sv:aPourPrenom>Nathan</sv:aPourPrenom>
+    <sv:aPourCodePostal>13001</sv:aPourCodePostal>
+    <sv:aPourCommune>Marseille</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/dave-payne">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Dave Payne</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/randa-haines">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Randa Haines</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/girard-ethan">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Girard</sv:aPourNom>
+    <sv:aPourPrenom>Ethan</sv:aPourPrenom>
+    <sv:aPourCodePostal>59000</sv:aPourCodePostal>
+    <sv:aPourCommune>Lille</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/moreau-enzo">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Moreau</sv:aPourNom>
+    <sv:aPourPrenom>Enzo</sv:aPourPrenom>
+    <sv:aPourCodePostal>13001</sv:aPourCodePostal>
+    <sv:aPourCommune>Marseille</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/bonnet-tom">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Bonnet</sv:aPourNom>
+    <sv:aPourPrenom>Tom</sv:aPourPrenom>
+    <sv:aPourCodePostal>34000</sv:aPourCodePostal>
+    <sv:aPourCommune>Montpellier</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/gela-babluani">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Gèla Babluani</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/thomas-hugo">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Thomas</sv:aPourNom>
+    <sv:aPourPrenom>Hugo</sv:aPourPrenom>
+    <sv:aPourCodePostal>75001</sv:aPourCodePostal>
+    <sv:aPourCommune>Paris</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/garcia-ines">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Garcia</sv:aPourNom>
+    <sv:aPourPrenom>Inès</sv:aPourPrenom>
+    <sv:aPourCodePostal>44000</sv:aPourCodePostal>
+    <sv:aPourCommune>Nantes</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:label xml:lang="fr">Ontologie StreamVault</rdfs:label>
+    <rdfs:comment xml:lang="fr">Ontologie du catalogue StreamVault : medias (films, livres), clients et commandes.</rdfs:comment>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/client/lefebvre-jade">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Client"/>
+    <sv:aPourNom>Lefebvre</sv:aPourNom>
+    <sv:aPourPrenom>Jade</sv:aPourPrenom>
+    <sv:aPourCodePostal>33000</sv:aPourCodePostal>
+    <sv:aPourCommune>Bordeaux</sv:aPourCommune>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/stan-richards">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Stan Richards</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/jerry-messing">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Jerry Messing</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/ontology#aPourNom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="fr">a pour nom</rdfs:label>
+    <rdfs:comment xml:lang="fr">Nom de famille du client.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://streamvault.example/ontology#Client"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/don-gabor">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Don Gabor</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/kelsey-grammer">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Kelsey Grammer</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/sylvie-testud">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Sylvie Testud</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/barbara-scheiner">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Barbara Scheiner</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/richard-steven-horvitz">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Richard Steven Horvitz</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/peter-taylor">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Peter Taylor</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/steve-sandvoss">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Steve Sandvoss</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/forest-whitaker">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Forest Whitaker</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/alana-o-brien">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Alana O'Brien</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/christine-lahti">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Christine Lahti</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/chao-li-chi">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Chao Li Chi</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/adam-cronheim">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Adam Cronheim</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/rebekah-johnson">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Rebekah Johnson</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/mark-baker">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Mark     Baker</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/richard-benjamin">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Richard Benjamin</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/amber-benson">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Amber Benson</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/john-asher">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>John Asher</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/kilpatrick">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Kilpatrick</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/elizabeth-perkins">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Elizabeth Perkins</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/john-wallach">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>John Wallach</sv:aPourNomComplet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://streamvault.example/data/personne/carl-sferrazza-anthony">
+    <rdf:type rdf:resource="http://streamvault.example/ontology#Personne"/>
+    <sv:aPourNomComplet>Carl Sferrazza Anthony</sv:aPourNomComplet>
+  </rdf:Description>
+</rdf:RDF>
