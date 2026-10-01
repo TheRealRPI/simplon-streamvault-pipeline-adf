@@ -37,9 +37,6 @@ StreamVault est un pipeline de données de bout en bout pour une plateforme fict
 
 ## 🧱 Architecture
 
-> [!TIP]
-> Le diagramme ci-dessous utilise la syntaxe Mermaid, rendue nativement sur GitHub.
-
 Comment circulent les données des sources brutes jusqu'aux visualisations ?
 
 ```mermaid
