@@ -22,7 +22,7 @@
 
 ## 🎯 Description
 
-StreamVault est un pipeline de données de bout en bout pour une plateforme fictive de distribution de médias (films et livres). Les données brutes sont chargées manuellement dans Azure Data Lake Storage, puis Azure Data Factory orchestre leur transformation par les notebooks Databricks (PySpark) et leur chargement (upsert) dans la base MongoDB locale via un runtime auto-hébergé. Un simulateur de commandes alimente ensuite Azure Event Hub en temps réel, dont le flux est consommé par Spark Structured Streaming. Le projet produit également une ontologie RDF/OWL du catalogue et des visualisations des ventes.
+StreamVault est un pipeline de données de bout en bout pour une plateforme fictive de distribution de médias (films et livres). Les données brutes sont chargées manuellement dans Azure Data Lake Storage, puis Azure Data Factory orchestre leur transformation par les notebooks Databricks (PySpark) et leur chargement (upsert) dans la base MongoDB locale via un runtime auto-hébergé. Un simulateur de commandes alimente ensuite Azure Event Hub en temps réel, dont le flux est consommé par Spark Structured Streaming.
 
 ## ✨ Fonctionnalités
 
@@ -32,8 +32,6 @@ StreamVault est un pipeline de données de bout en bout pour une plateforme fict
 - Base MongoDB locale `streamvault` (collections `clients`, `media`, `commandes`)
 - Simulateur de commandes temps réel vers Azure Event Hub (`commandProducer.py`)
 - Consommation du flux par Spark Structured Streaming (ADLS + MongoDB)
-- Ontologie RDF/OWL du catalogue (`rendus/ontology/`)
-- Visualisations des ventes et du catalogue (`rendus/dataviz/`)
 
 ## 🧱 Architecture
 
@@ -97,7 +95,6 @@ flowchart TD
 ```text
 .
 ├── notebooks/          # Notebooks Databricks (ETL, jointures, streaming)
-├── rendus/             # Livrables : captures ADF, schémas MongoDB, ontologie RDF, dataviz
 ├── commandProducer.py  # Simulateur de commandes vers Azure Event Hub
 └── requirements.txt    # Dépendances Python
 ```
@@ -106,7 +103,7 @@ flowchart TD
 
 | Commande | Description |
 |----------|-------------|
-| `pip install -r requirements.txt` | Installe les dépendances Python |
+| `pip install -r requirements.txt` | Installe les dépendances Python (requis pour le producteur) |
 | `python commandProducer.py` | Simule 100 commandes vers l'Event Hub (une toutes les 3 s) |
 
 ## 👥 Auteurs
